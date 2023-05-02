@@ -2,35 +2,35 @@
 
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "BoardMind",
+      subtitle: "Python, PyTorch, Numpy, Pandas",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Developed an artificial intelligence to analyze chess board positions accurately and make strategic decisions.",
       image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+      link: "https://github.com/Sulima1/BoardMind-AI",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "SafePulse",
+      subtitle: "Python, Flask, React, Firebase, Twilio API",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Developed an application to combat the opioid crisis across Canada, assisting those in need during the pandemic. First place project at HawkHacks 2022.",
       image: "./project-2.gif",
-      link: "https://reedbarger.com",
+      link: "https://devpost.com/software/safepulse",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "RateMyLandlord",
+      subtitle: "Python, Flask, MongoDB, React, TailwindCSS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "An application built to simplify the student housing process for new renters, in a similar format as RateMyProfessor.",
       image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
+      link: "https://devpost.com/software/ratemylandlord-oam5q4",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "MoxieChat",
+      subtitle: "Go, Next, React, TailwindCSS, WebSocket API, Gin",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "An open-source and anonymous chat application to help individuals learn new skills collaboratively with others.",
       image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
+      link: "https://devpost.com/software/moxie",
     },
   ];
