@@ -4,36 +4,21 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Matthew Borkowski.
-            <br className="hidden lg:inline-block" />Developer and student.
-          </h1>
-          <p className="mb-8 leading-relaxed">I am a computer science student studying at 
-Wilfrid Laurier University. I like to code things in my free time.
-
+    <section id="about" className="flex items-center justify-center h-screen">
+      <div className="container mx-auto flex px-5 py-20 flex-col items-center justify-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 text-center">
+          <p className="mx-5 md:mx-8 mb-2 leading-relaxed text-[#D2931B]">
+            Hi, my name is
           </p>
-          <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-          </div>
-        </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.svg"
-          />
+          <h1 className="mx-5 md:mx-12 title-font sm:text-4xl text-3xl mb-4 font-medium text-[#C7D4F0]">
+            Matthew Borkowski.
+          </h1>
+          <h2 className="mx-5 md:mx-16 title-font sm:text-4xl text-3xl mb-4 font-medium text-[#C7D4F0]">
+            <span className="pl-4">Developer and student.</span>
+          </h2>
+          <p className="mx-5 md:mx-8 mb-8 leading-relaxed">
+            I'm a computer science student at <span className="text-[#D2931B]">Wilfrid Laurier University</span> <br className="hidden lg:inline-block" /> and I like to code things in my free time.
+          </p>
         </div>
       </div>
     </section>

@@ -7,7 +7,7 @@ import Projects from "./components/Projects.js";
 
 export default function App() {
   return (
-    <main className="text-[#C7D4F0] bg-[#262435] body-font">
+    <main className="text-[#C7D4F0] bg-[#052529] body-font">
       <Navbar />
       <About />
       <Projects />
