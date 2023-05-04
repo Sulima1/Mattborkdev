@@ -7,7 +7,7 @@ import { projects } from "../data.js";
 export default function Projects() {
   return (
     <section id="projects" className="text-[#C7D4F0] bg-[#052529] body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40 h-full">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40 h-5/6">
         <div className="flex flex-col w-full mb-20">
          
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white">
