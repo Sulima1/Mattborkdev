@@ -1,16 +1,15 @@
-// src/components/Projects.js
-
 import React from "react";
 import { projects } from "../data.js";
 
-
 export default function Projects() {
   return (
-    <section id="projects" className="text-[#C7D4F0] bg-[#052529] body-font">
+    <section
+      id="projects"
+      className="text-[#C7D4F0] bg-[#052529] body-font h-screen flex flex-col justify-center"
+    >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-         
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-[#D2931B]" style={{ fontFamily: 'Inconsolata' }}>
             Here are some projects I've worked on
           </h1>
         </div>
@@ -19,7 +18,8 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
