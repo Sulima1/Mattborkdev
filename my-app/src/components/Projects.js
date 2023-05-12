@@ -5,11 +5,11 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="className=bg-[#052529] flex flex-col justify-center" style={{ marginTop: '2rem', fontFamily: 'Inconsolata'  }}
+      className="className=bg-[#052529] flex flex-col justify-center h-screen" style={{ marginTop: '2rem', fontFamily: 'Inconsolata'  }}
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-[#D2931B]">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-[#D2931B] pt-35">
             Here are some projects I've worked on
           </h1>
         </div>
@@ -23,7 +23,7 @@ export default function Projects() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center lg:object-scale-down"
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-2 border-[#D2931B] bg-[#052529] opacity-0 hover:opacity-100">

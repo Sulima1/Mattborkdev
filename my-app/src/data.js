@@ -22,7 +22,7 @@ export const projects = [
       subtitle: "Python, Flask, MongoDB, React, TailwindCSS",
       description:
         "An application built to simplify the student housing process for new renters, in a similar format as RateMyProfessor.",
-      image: "./media/MoxieChat_Preview.jpg",
+      image: "./RateMyLandlord_Preview.jpg",
       link: "https://devpost.com/software/ratemylandlord-oam5q4",
     },
     {
@@ -30,7 +30,7 @@ export const projects = [
       subtitle: "Go, Next, React, TailwindCSS, WebSocket API, Gin",
       description:
         "An open-source and anonymous chat application to help individuals learn new skills collaboratively with others.",
-      image: "./media/RateMyLandlord_Preview.jpg",
+      image: "./MoxieChat_Preview.jpg",
       link: "https://devpost.com/software/moxie",
     },
   ];
