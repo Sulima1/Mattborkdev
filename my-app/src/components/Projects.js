@@ -5,11 +5,11 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="text-[#C7D4F0] bg-[#052529] body-font h-screen flex flex-col justify-center"
+      className="className=bg-[#052529] flex flex-col justify-center" style={{ marginTop: '2rem', fontFamily: 'Inconsolata'  }}
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-[#D2931B]" style={{ fontFamily: 'Inconsolata' }}>
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-[#D2931B]">
             Here are some projects I've worked on
           </h1>
         </div>
