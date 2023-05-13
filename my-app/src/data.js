@@ -6,7 +6,7 @@ export const projects = [
       subtitle: "Python, PyTorch, Numpy, Pandas",
       description:
         "An artificial intelligence to analyze chess board positions accurately and make strategic decisions.",
-      image: "./project-1.jpg",
+      image: "./BoardMind logo.jpg",
       link: "https://github.com/Sulima1/BoardMind-AI",
     },
     {
@@ -14,7 +14,7 @@ export const projects = [
       subtitle: "Python, Flask, React, Firebase, Twilio API",
       description:
         "An application to combat the opioid crisis across Canada, assisting those in need during the pandemic. First place project at HawkHacks 2022.",
-      image: "./project-2.jpg",
+      image: "./SafePulse Logo.jpg",
       link: "https://devpost.com/software/safepulse",
     },
     {
@@ -30,7 +30,7 @@ export const projects = [
       subtitle: "Go, Next, React, TailwindCSS, WebSocket API, Gin",
       description:
         "An open-source and anonymous chat application to help individuals learn new skills collaboratively with others.",
-      image: "./MoxieChat_Preview.jpg",
+      image: "./MoxieChat Logo.jpg",
       link: "https://devpost.com/software/moxie",
     },
   ];
