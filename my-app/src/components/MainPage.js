@@ -17,7 +17,7 @@ export default function About() {
 
   return (
     <section id="main" className="flex items-center justify-center" style={sectionStyle}>
-      <div className="container snap-y snap-mandatory overflow-auto mx-auto flex px-5 py-20 flex-col items-center justify-center mb-10">
+      <div className="container overflow-auto mx-auto flex px-5 py-20 flex-col items-center justify-center mb-10">
         <div className="snap-start lg:pl-24 md:pl-16 flex flex-col sm:items-start sm:text-left mb-16 md:mb-0 text-center">
           <p className="no-wrap text-xl lg:text-xl mx-5 md:mx-8 mb-2 leading-relaxed text-[#D2931B]" style={{ fontFamily: 'Inconsolata' }}>
             Hi, my name is

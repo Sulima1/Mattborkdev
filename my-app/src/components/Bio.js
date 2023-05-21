@@ -3,14 +3,15 @@ import headshot from "../media/IMG_9090-min 1.jpg";
 
 export default function MainApp() {
   return (
-    <section section id="bio" className="flex items-center justify-center mb-20 min-h-screen md:min-h-1200 scroll-snap">
-      <div className="snap-y snap-mandatory overflow-auto">
-        <div className="flex flex-wrap lg:flex-nowrap">
-            <div className="w-1/2 lg:h-96 mx-auto">
-                <img src={headshot} alt="headshot" className="sm:h-5/6 lg:h-full w-full object-contain"/>
+    <section section id="bio" className="flex items-center justify-center mb-20 min-h-screen md:min-h-1200">
+      <div>
+        <div className="flex flex-wrap">
+            <div className="w-1/2 mx-auto relative">
+                <img src={headshot} alt="headshot" className="mx-auto md:mb-[-250px] mr-10px relative rounded-full w-1/3"/>
+                <div class="mx-auto mr-80 w-80 h-80 bg-[#D2931B] rounded-full"></div>
             </div>
         <div className="w-full lg:w-1/2 lg:h-96 flex flex-col justify-center px-10 py-6">
-            <h1 className="text-3xl lg:text-4xl font-bold mb-10 text-[#D2931B]">
+            <h1 className="text-3xl lg:text-4xl font-bold mb-10 text-[#D2931B] text-center">
             Some more about me.
             </h1>
             <p className="sm:text-xl lg:text-xl"style={{ fontFamily: 'Inconsolata' }}>

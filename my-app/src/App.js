@@ -8,12 +8,12 @@ import Bio from "./components/Bio.js";
 
 export default function App() {
   return (
-    <main className="text-[#C7D4F0] bg-[#052529] body-font">
+    <div className="text-[#C7D4F0] bg-[#052529] body-font">
       <Navbar />
       <MainPage />
       <Bio />
       <Projects />
       <Contact />
-    </main>
+    </div>
   );
 }
