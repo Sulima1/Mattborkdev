@@ -7,8 +7,7 @@ export default function MainApp() {
       <div>
         <div className="flex flex-wrap">
             <div className="w-1/2 mx-auto relative">
-                <img src={headshot} alt="headshot" className="mx-auto md:mb-[-250px] mr-10px relative rounded-full w-1/3"/>
-                <div class="mx-auto mr-80 w-80 h-80 bg-[#D2931B] rounded-full"></div>
+                <img src={headshot} alt="headshot" className="mx-auto sm:mt-[-250px] md:mt-0 mr-10px relative rounded-full w-1/2"/>
             </div>
         <div className="w-full lg:w-1/2 lg:h-96 flex flex-col justify-center px-10 py-6">
             <h1 className="text-3xl lg:text-4xl font-bold mb-10 text-[#D2931B] text-center">

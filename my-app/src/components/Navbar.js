@@ -25,7 +25,7 @@ export default function Navbar() {
     <header
       className={classNames(
         "bg-[#052529] md:sticky top-0 z-10 transition-all transform-gpu",
-        {"scale-y-90 h-12": isScrolled}
+        {"scale-y-90 h-14": isScrolled}
       )}
       style={{ transformOrigin: 'top' }}
     >
