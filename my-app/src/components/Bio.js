@@ -14,12 +14,11 @@ export default function MainApp() {
             Some more about me.
             </h1>
             <p className="sm:text-xl lg:text-xl"style={{ fontFamily: 'Inconsolata' }}>
-              I am a fourth-year computer science student at Wilfrid Laurier University. I first got into software development when I was 
-              pursuing a design degree and took a course where we had to mess around with an Arduino. Turned out I like programming a bit more than I thought I would!
+              I am a fourth-year computer science student at Wilfrid Laurier University and currently an intern at Oshkosh Corporation. I first got into software development when I was 
+              pursuing a Bachelor of Design. When I took a course where we had to create art with an Arduino, I learned that I like programming a bit more than I thought I would. That sent me down the coding rabbit hole and I am so glad I chose to do so. 
               <br></br><br></br>
-              I'm still figuring out what career path I want to go down but recently I've really been into research.
-              I love a good challenge and exploring everything that coding can do. In my free time I like to collect records, play a couple of video games, and go to the gym. 
-              If you want to contact me for work, projects, or even to run some video games feel free to reach out! 
+              With my graduation coming up, I've been focusing in on a career in Software Engineering or Data Science. I really found a lot of enjoyment in Machine Learning and Image Processing in my classwork. In my free time I like to collect records, play video games, and go to the gym. 
+              If you want to contact me for work, projects, or even to run some video games feel free to reach out!
             </p>
           </div>
         </div>
