@@ -26,10 +26,10 @@ export default function About() {
             Matthew Borkowski.
           </h1>
           <h2 className="mx-5 no-wrap text-2xl md:text-5xl lg:text-6xl mx-5 md:ml-16 title-font mb-4 font-medium text-[#8B96B3]" style={{ fontFamily: 'Inter' }}>
-            <span>Developer and student.</span>
+            <span>Software Engineer.</span>
           </h2>
           <p className="text-xl md:text-xl lg:text-xl md:mx-8 mb-8 paragraph max-w-xl" style={{ fontFamily: 'Inconsolata' }}>
-            I'm a computer science student at <span className="text-[#D2931B]">Wilfrid Laurier University</span> and I like to code things in my free time.
+            I'm a recent graduate from <span className="text-[#D2931B]">Wilfrid Laurier University</span> and I like to code things in my free time.
           </p>
         </div>
       </div>
