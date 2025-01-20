@@ -14,7 +14,7 @@ export default function MainApp() {
             Some more about me.
             </h1>
             <p className="sm:text-xl lg:text-xl"style={{ fontFamily: 'Inconsolata' }}>
-              I am a recently graduated computer science student from Wilfrid Laurier University. I first got into software development when I was 
+              I am a computer science graduate from Wilfrid Laurier University. I first got into software development when I was 
               pursuing a Bachelor of Design in downtown Toronto. There, I took a course to create digital art with an Arduino. From that experience I learned that I like programming a bit more than I thought I would. That sent me down the coding rabbit hole and I am so glad I chose to do so. 
               <br></br><br></br>
               Since my graduation, I've been focusing in on a career in Software Engineering. It brings so much joy to actively solve digital problems - they're like little puzzles and brainteasers. In my free time I like to collect records/cds, play video games, and go to the gym. 
