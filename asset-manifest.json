@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mattborkdev/static/css/main.c373e356.css",
-    "main.js": "/Mattborkdev/static/js/main.39098176.js",
+    "main.js": "/Mattborkdev/static/js/main.04c1bb35.js",
     "static/js/787.28cb0dcd.chunk.js": "/Mattborkdev/static/js/787.28cb0dcd.chunk.js",
     "static/media/IMG_9090-min 1.jpg": "/Mattborkdev/static/media/IMG_9090-min 1.a14582369b00f7e1920d.jpg",
     "static/media/githubSVG.svg": "/Mattborkdev/static/media/githubSVG.95a275bea38c82b75b3ef87010ba8404.svg",
@@ -10,11 +10,11 @@
     "index.html": "/Mattborkdev/index.html",
     "static/media/LinkedInSVG.svg": "/Mattborkdev/static/media/LinkedInSVG.b0f4df5c0dc83e5c9dd12e9262017286.svg",
     "main.c373e356.css.map": "/Mattborkdev/static/css/main.c373e356.css.map",
-    "main.39098176.js.map": "/Mattborkdev/static/js/main.39098176.js.map",
+    "main.04c1bb35.js.map": "/Mattborkdev/static/js/main.04c1bb35.js.map",
     "787.28cb0dcd.chunk.js.map": "/Mattborkdev/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c373e356.css",
-    "static/js/main.39098176.js"
+    "static/js/main.04c1bb35.js"
   ]
 }
