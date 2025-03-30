@@ -29,7 +29,7 @@ export default function About() {
             <span>Software Engineer.</span>
           </h2>
           <p className="text-xl md:text-xl lg:text-xl md:mx-8 mb-8 paragraph max-w-xl" style={{ fontFamily: 'Inconsolata' }}>
-            I'm a recent graduate from <span className="text-[#D2931B]">Wilfrid Laurier University</span> and I like to code things in my free time.
+            I have a Bachelors of Science in <span className="text-[#D2931B]">Computer Science</span> <br></br>and I like to code things in my free time.
           </p>
         </div>
       </div>

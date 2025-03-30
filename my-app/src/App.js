@@ -4,7 +4,7 @@ import MainPage from "./components/MainPage.js";
 import Navbar from "./components/Navbar.js";
 import Projects from "./components/Projects.js";
 import Bio from "./components/Bio.js";
-
+import WorkHistory from "./components/WorkHistory.js";
 
 export default function App() {
   return (
@@ -16,6 +16,9 @@ export default function App() {
         </div>
         <div className="scroll-section">
           <Bio />
+        </div>
+        <div className="scroll-section">
+          <WorkHistory />
         </div>
         <div className="scroll-section">
           <Projects />

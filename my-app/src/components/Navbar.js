@@ -11,7 +11,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setIsScrolled(scrollTop > 0);
+      setIsScrolled(scrollTop > 150);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -25,7 +25,7 @@ export default function Navbar() {
     <header
       className={classNames(
         "bg-[#052529] md:sticky top-0 z-10 transition-all transform-gpu",
-        {"scale-y-90 h-14": isScrolled}
+        {"scale-y-180 h-14": isScrolled}
       )}
       style={{ transformOrigin: 'top' }}
     >
