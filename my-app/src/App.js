@@ -5,8 +5,9 @@ import Navbar from "./components/Navbar.js";
 import Projects from "./components/Projects.js";
 import Bio from "./components/Bio.js";
 import WorkHistory from "./components/WorkHistory.js";
+import Collapsible from "./components/Collapsible.js";
 
-export default function App() {
+function App(){
   return (
     <div id="mainContainer" className="text-[#C7D4F0] bg-[#052529] body-font">
       <Navbar />
@@ -19,6 +20,7 @@ export default function App() {
         </div>
         <div className="scroll-section">
           <WorkHistory />
+          <Collapsible/>
         </div>
         <div className="scroll-section">
           <Projects />
@@ -27,3 +29,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
